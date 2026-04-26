@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<CubeBlocks>
+		
+		<Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+			<Id>
+				<TypeId>ConveyorSorter</TypeId>
+				<SubtypeId>NerdUpgradeShieldBlock_HP</SubtypeId>
+			</Id>
+			<Description>Increases shield HP by 25k HP. Requires a main shield block to function.</Description>
+			<Components>
+                <Component Subtype="SteelPlate" Count="20"/>
+                <Component Subtype="Construction" Count="40"/>
+                <Component Subtype="MetalGrid" Count="40"/>
+                <Component Subtype="PowerCell" Count="15"/>
+                <Component Subtype="Superconductor" Count="150"/>
+                <Component Subtype="GravityGenerator" Count="1"/>
+                <Component Subtype="Computer" Count="100"/> <!-- FUNCTIONAL LINE /\ UP NONFUNCTIONAL -->
+                <Component Subtype="SteelPlate" Count="20"/>
+            </Components>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+			<Id>
+				<TypeId>ConveyorSorter</TypeId>
+				<SubtypeId>NerdUpgradeShieldBlock_HP_SG</SubtypeId>
+			</Id>
+			<Description>Increased shield HP by 1,250. Requires a main shield block to function.</Description>
+            <Components>
+                <Component Subtype="SteelPlate" Count="5"/>
+                <Component Subtype="Construction" Count="5"/>
+                <Component Subtype="MetalGrid" Count="5"/>
+                <Component Subtype="PowerCell" Count="5"/>
+                <Component Subtype="Superconductor" Count="15"/>
+                <Component Subtype="GravityGenerator" Count="1"/>
+                <Component Subtype="Computer" Count="25"/> <!-- FUNCTIONAL LINE /\ UP NONFUNCTIONAL -->
+                <Component Subtype="SteelPlate" Count="5"/>
+            </Components>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+			<Id>
+				<TypeId>ConveyorSorter</TypeId>
+				<SubtypeId>NerdUpgradeShieldBlock_Regen</SubtypeId>
+			</Id>
+			<Description>Increased shield regen while out of combat by 750 HP/sec. Requires a main shield block to function.</Description>
+			<Components>
+                <Component Subtype="SteelPlate" Count="20"/>
+                <Component Subtype="Construction" Count="40"/>
+                <Component Subtype="MetalGrid" Count="40"/>
+                <Component Subtype="PowerCell" Count="15"/>
+                <Component Subtype="Superconductor" Count="25"/>
+                <Component Subtype="GravityGenerator" Count="1"/>
+                <Component Subtype="Computer" Count="100"/> <!-- FUNCTIONAL LINE /\ UP NONFUNCTIONAL -->
+                <Component Subtype="SteelPlate" Count="20"/>
+            </Components>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+			<Id>
+				<TypeId>ConveyorSorter</TypeId>
+				<SubtypeId>NerdUpgradeShieldBlock_Regen_SG</SubtypeId>
+			</Id>
+			<Description>Increased shield regen while out of combat by 75 HP/sec. Requires a main shield block to function.</Description>
+            <Components>
+                <Component Subtype="SteelPlate" Count="5"/>
+                <Component Subtype="Construction" Count="5"/>
+                <Component Subtype="MetalGrid" Count="5"/>
+                <Component Subtype="PowerCell" Count="5"/>
+                <Component Subtype="Superconductor" Count="15"/>
+                <Component Subtype="GravityGenerator" Count="1"/>
+                <Component Subtype="Computer" Count="25"/> <!-- FUNCTIONAL LINE /\ UP NONFUNCTIONAL -->
+                <Component Subtype="SteelPlate" Count="5"/>
+            </Components>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+			<Id>
+				<TypeId>ConveyorSorter</TypeId>
+				<SubtypeId>NerdUpgradeShieldBlock_AltDamageCurve</SubtypeId>
+			</Id>
+			<Public>False</Public>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+			<Id>
+				<TypeId>ConveyorSorter</TypeId>
+				<SubtypeId>NerdUpgradeShieldBlock_AltDamageCurve_SG</SubtypeId>
+			</Id>
+			<Public>False</Public>
+		</Definition>
+	</CubeBlocks>
+</Definitions>

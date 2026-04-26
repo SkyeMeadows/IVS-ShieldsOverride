@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<CubeBlocks>
+		<Definition xsi:type="MyObjectBuilder_AirVentDefinition">
+			<Id>
+				<TypeId>AirVent</TypeId>
+				<SubtypeId>NerdMainShieldBlock</SubtypeId><!--Subtypes would be mss_[lg/sg]_[block name] to keep with midnight nomenclature but these predate MSS having its name by about a year :( -->
+			</Id>
+			<Description>Core block of a shield system. Provides a health pool that protects against fire, but lets an increasing percentage of damage through as it weakens. [200kHP | 2kHP/s Regen | 30s Damage Cooldown]</Description>
+			<Components>
+				<Component Subtype="SteelPlate" Count="100"/>
+				<Component Subtype="Construction" Count="60"/>
+				<Component Subtype="MetalGrid" Count="50"/>
+				<Component Subtype="PowerCell" Count="100"/>
+				<Component Subtype="Superconductor" Count="1000"/>
+				<Component Subtype="GravityGenerator" Count="25"/>
+				<Component Subtype="Computer" Count="200"/><!-- FUNCTIONAL LINE /\ UP NONFUNCTIONAL -->
+				<Component Subtype="SteelPlate" Count="100"/>
+			</Components>
+			<BuildTimeSeconds>60</BuildTimeSeconds>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_AirVentDefinition">
+			<Id>
+				<TypeId>AirVent</TypeId>
+				<SubtypeId>NerdMainShieldBlock_SG</SubtypeId>
+			</Id>
+			<Description>Core block of a shield system. Provides a health pool that protects against fire, but lets an increasing percentage of damage through as it weakens. [10kHP | 100HP/s Regen | 30s Damage Cooldown]</Description>
+			<Components>
+				<Component Subtype="SteelPlate" Count="20"/>
+				<Component Subtype="Construction" Count="8"/>
+				<Component Subtype="MetalGrid" Count="9"/>
+				<Component Subtype="PowerCell" Count="8"/>
+				<Component Subtype="Superconductor" Count="50"/>
+				<Component Subtype="GravityGenerator" Count="2"/>
+				<Component Subtype="Computer" Count="90"/><!-- FUNCTIONAL LINE /\ UP NONFUNCTIONAL -->
+				<Component Subtype="SteelPlate" Count="20"/>
+			</Components>
+			<BuildTimeSeconds>25</BuildTimeSeconds>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_AirVentDefinition">
+			<Id>
+				<TypeId>AirVent</TypeId>
+				<SubtypeId>NerdMainShieldBlock_Admin</SubtypeId>
+			</Id>
+			<Description>Not Intended for player use.</Description>
+		</Definition>
+	</CubeBlocks>
+</Definitions>
