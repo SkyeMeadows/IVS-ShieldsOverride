@@ -47,7 +47,7 @@
                 <Component Subtype="Construction" Count="40"/>
                 <Component Subtype="MetalGrid" Count="40"/>
                 <Component Subtype="PowerCell" Count="15"/>
-                <Component Subtype="Superconductor" Count="25"/>
+                <Component Subtype="Superconductor" Count="150"/>
                 <Component Subtype="GravityGenerator" Count="1"/>
                 <Component Subtype="Computer" Count="100"/> <!-- FUNCTIONAL LINE /\ UP NONFUNCTIONAL -->
                 <Component Subtype="SteelPlate" Count="20"/>
@@ -75,14 +75,14 @@
 				<TypeId>ConveyorSorter</TypeId>
 				<SubtypeId>NerdUpgradeShieldBlock_AltDamageCurve</SubtypeId>
 			</Id>
-			<Public>False</Public>
+			<Public>false</Public>
 		</Definition>
 		<Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
 			<Id>
 				<TypeId>ConveyorSorter</TypeId>
 				<SubtypeId>NerdUpgradeShieldBlock_AltDamageCurve_SG</SubtypeId>
 			</Id>
-			<Public>False</Public>
+			<Public>false</Public>
 		</Definition>
 	</CubeBlocks>
 </Definitions>

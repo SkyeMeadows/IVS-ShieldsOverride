@@ -9,6 +9,7 @@
 			<Description>Core block of a shield system. Provides a health pool that protects against fire, but lets an increasing percentage of damage through as it weakens. [200kHP | 2kHP/s Regen | 30s Damage Cooldown]</Description>
 			<Components>
 				<Component Subtype="SteelPlate" Count="100"/>
+				<Component Subtype="PrototechPanel" Count="50"/>
 				<Component Subtype="Construction" Count="60"/>
 				<Component Subtype="MetalGrid" Count="50"/>
 				<Component Subtype="PowerCell" Count="100"/>
@@ -27,6 +28,7 @@
 			<Description>Core block of a shield system. Provides a health pool that protects against fire, but lets an increasing percentage of damage through as it weakens. [10kHP | 100HP/s Regen | 30s Damage Cooldown]</Description>
 			<Components>
 				<Component Subtype="SteelPlate" Count="20"/>
+				<Component Subtype="PrototechPanel" Count="10"/>
 				<Component Subtype="Construction" Count="8"/>
 				<Component Subtype="MetalGrid" Count="9"/>
 				<Component Subtype="PowerCell" Count="8"/>
@@ -43,6 +45,7 @@
 				<SubtypeId>NerdMainShieldBlock_Admin</SubtypeId>
 			</Id>
 			<Description>Not Intended for player use.</Description>
+			<Public>false</Public>
 		</Definition>
 	</CubeBlocks>
 </Definitions>
